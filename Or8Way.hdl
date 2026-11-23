@@ -1,4 +1,4 @@
-CHIP Or8Way {
+ CHIP Or8Way {
     IN in[8];
     OUT out;
 
@@ -12,4 +12,4 @@ CHIP Or8Way {
     Or(a=x3, b=x4, out=x6);
 
     Or(a=x5, b=x6, out=out);
-}
+ }
